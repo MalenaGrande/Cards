@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header .descuento {
+    background: #1CD1B0;
+    padding: 2px 0px 2px 10px;
+}
+
+
+header h1 {
+    background: #00669F;
+    padding: 10px 0px 10px 20px;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article {
+    margin-top: 75px;
+    
+}
+
+
+section article { 
+    position: relative;
+    width: 300px;
+    margin: 100px 0px;
+    background-color: #F3F3F3;
+    text-align: center;
+}
+
+section article .portada {
+    height: 194px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 16px 16px 0px 0px;
+    text-align: left;
+}
+
+
+section article .portada.Batman {
+    background-image: url(../img/batmanPortada.png);
+    background-size: cover;
+}
+
+
+section article .portada.Harley {
+    background-image: url(../img/harleyPortada.png);
+    background-size: cover;
+}
+
+section article .portada i {
+    color: red;
+    font-size: 24px;
+}
+
+section article div {
+    font-size: 24px;
+}
+
+section article img{
+    border-radius: 50%;
+    position: absolute;
+    top: 142px;
+    left: 90;
+    bottom: 62px;
+    left: 88px;
+}
+
+article h4 {
+    text-align: center;
+    margin-top: 75px;
+    text-transform: uppercase;
+}
+
+article p {
+    font-size: 16px;
+    padding: 10px;
+    height: 190px;
+    text-align: left;
+    margin: 10px;
+}
+
+article button{
+    border: none;
+    margin: 25px;
+    padding: 10px 30px;
+    background: #00669F;
+    color: white;
+}
+
+footer {
+    position: relative;
+    padding: 30px 0px;
+    background: #00669F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
